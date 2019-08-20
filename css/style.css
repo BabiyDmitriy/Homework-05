@@ -177,9 +177,9 @@ body {
 /* section new-collection */
 
 .collection{
-    width: 1600px;
     height: 100%;
-    background-color: rgb(233,240,253);
+    width: 1600px;  
+    background-color: rgb(233,240,253)
 }
 .collection-title {
     /* position: absolute;
@@ -230,9 +230,48 @@ body {
     margin-bottom: 102px;
 }
 
-.popup-menu {
-    display: inline-block;
+.item {
+    position: relative;
+}
+
+.item h3 {
     position: absolute;
+    bottom:0px;
+    margin: 0px;
+    padding: 5px 14px;
+    font-size: 18px;
+    line-height: 32px;
+    font: 900;
+    color: #ffffff;
+    width: 201px;
+    height: 40px;
+    background-color: rgb(50, 50, 50);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.item p {
+    position: absolute;
+    bottom:0px;
+    left:201px;
+    margin: 0px;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 32px;
+    font: 900;
+    color: #ffffff;
+    width: 54px;
+    height: 40px;
+    background-color: rgb(140,140,140);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.popup-menu {
+    /* display: inline-block; */
+    position: absolute;
+    top:10px;
+    left: 10px;
     width: 234px;
     height: 262px;
     border-width: 10px;
@@ -242,13 +281,8 @@ body {
     opacity: 0.549;
 }
 
- /* .popup-icons{
-    position: absolute;
- }  */
-
 .popup-icons li {
-    /* position: absolute; */
-    display: inline-block;
+    position: absolute;
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -260,13 +294,36 @@ body {
 .popup-icons li:not(:last-child) {
     width:50px;
     height: 50px;
+    top: 80px;
 }
 
 .popup-icons li:(:last-child) {
     width: 166px;
     height: 50px;
-    background-color: rgb(50, 50, 50,)
+    background-color: rgb(50, 50, 50)
 }
+
+.popup-icons-heart{
+    position: absolute;
+    left: 36px;
+}
+
+.popup-icons-arrow{
+    position: absolute;
+    left: 96px;
+}
+
+.popup-icons-watch {
+    position: absolute;
+    left: 150px;
+}
+
+.popup-icons-shopping-cart{
+    position: absolute;
+    bottom: 76px;
+    left: 36px;
+}
+
 
 .shopping {
     margin: 0px;
@@ -282,13 +339,16 @@ body {
 .page-footer {
     font-family: "Open-Sans";
     font-size: 16px;
-    font-weight: 28px;
+    line-height: 28px;
+    color: #ffffff;
+    width: 1600px;
     height: 90px;
-    /* background-color: rgb(50, 50, 50,) */
+    background-color:rgb(50,50,50);
 }
 
 .page-attachment {
-    background-color: rgb(50, 50, 50,)
+    text-decoration: none;
+    text-transform: none;
 }
 
 .attachment {
@@ -300,6 +360,7 @@ body {
 .attachment a {
     text-decoration: none;
     text-transform: none;
+    color: #1abc9c;
 }
 
 
