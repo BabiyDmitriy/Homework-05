@@ -98,6 +98,9 @@ body {
     background-color: rgba(0, 0, 2, 0,5), rgba(50, 50, 50, 0,8);
       
  }
+.slider-content:hover {
+    background-color: rgba(50, 50, 50, 0,8)
+}
 
 .slider-priority p {
     display: inline-block;
@@ -182,8 +185,6 @@ body {
     background-color: rgb(233,240,253)
 }
 .collection-title {
-    /* position: absolute;
-    left: 490px; */
     margin:0px auto;
     padding: 100px 0px;
     font-family: "Roboto";
@@ -268,7 +269,6 @@ body {
 }
 
 .popup-menu {
-    /* display: inline-block; */
     position: absolute;
     top:10px;
     left: 10px;
@@ -283,12 +283,20 @@ body {
 
 .popup-icons li {
     position: absolute;
+    display: inline-block;
     margin: 0px;
     padding: 0px;
     list-style: none;
     border-width: 1px;
     border-color: #ffffff;
     border-style: solid;
+    text-align: center;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.popup-icons li:hover .popup-menu {
+    opacity: 0,596;
 }
 
 .popup-icons li:not(:last-child) {
@@ -303,37 +311,57 @@ body {
     background-color: rgb(50, 50, 50)
 }
 
+.popup-icons-button {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
 .popup-icons-heart{
     position: absolute;
     left: 36px;
+    background-image: url(../img/icons/heart.png);
+    background-position: center;
 }
 
 .popup-icons-arrow{
     position: absolute;
-    left: 96px;
+    left: 94px;
+    background-image: url(../img/icons/arrow.png);
+    background-position: center; 
 }
 
 .popup-icons-watch {
     position: absolute;
-    left: 150px;
+    left: 152px;
+    background-image: url(../img/icons/watch.png);
+    background-position: center;
 }
 
 .popup-icons-shopping-cart{
     position: absolute;
-    bottom: 76px;
+    width: 166px;
+    height: 50px;
+    bottom: 74px;
     left: 36px;
+    background-image: url(../img/icons/shopping-cart.png);
+    background-position: left;
+    background-position-x: 10px;
+    background-color: rgb(50, 50, 50);
 }
 
-
 .shopping {
+    position: absolute;
+    left: 50px;
+    top: 15px;
     margin: 0px;
     padding: 0px;
 }
 
-.shopping p {
-    display: inline-block;
-    float: right;
-} 
+/* .shopping p {
+     display: inline-block;
+     float: right;  
+}  */
  /*footer  */
 
 .page-footer {
