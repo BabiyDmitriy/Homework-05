@@ -95,12 +95,9 @@ body {
     padding: 0px;
     width: 1600px;
     height: 600px;
-    background-color: rgba(0, 0, 2, 0,5), rgba(50, 50, 50, 0,8);
+    background-color: rgb(0, 0, 0);
       
  }
-.slider-content:hover {
-    background-color: rgba(50, 50, 50, 0,8)
-}
 
 .slider-priority p {
     display: inline-block;
@@ -111,6 +108,7 @@ body {
     color:#ffffff;
     font-weight: 300;
 }
+
 
 /* .slider-priority-active span:hover,
 .slider-priority-active span:focus {
@@ -164,6 +162,7 @@ body {
     width: 100%;
     height: 600px;
     object-fit: cover;
+    opacity: 0.522;
 }
 
 .shot-item {
@@ -174,7 +173,9 @@ body {
     position: absolute;
     left: 27%;
     bottom: 40%; 
-    transform: translateY(-50%)  
+    transform: translateY(-50%);
+    color: #ffffff;
+    z-index: 3;
 }
  
 /* section new-collection */
@@ -237,7 +238,7 @@ body {
 
 .item h3 {
     position: absolute;
-    bottom:0px;
+    bottom:4px;
     margin: 0px;
     padding: 5px 14px;
     font-size: 18px;
@@ -253,7 +254,7 @@ body {
 
 .item p {
     position: absolute;
-    bottom:0px;
+    bottom:4px;
     left:201px;
     margin: 0px;
     padding: 5px;
@@ -278,12 +279,11 @@ body {
     border-style: solid 1;
     background-color: rgb(0, 0, 0);
     border-color: rgb(255, 255, 255);
-    opacity: 0.549;
+    opacity: 0;
 }
 
 .popup-icons li {
     position: absolute;
-    display: inline-block;
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -292,11 +292,22 @@ body {
     border-style: solid;
     text-align: center;
     background-repeat: no-repeat;
-    /* background-position: center; */
 }
 
-.popup-icons li:hover .popup-menu {
+.item-content li :hover .popup-menu {
     opacity: 0,596;
+}
+
+.item-content li :hover .item-title {
+    background-color: #1abc9c;
+}
+
+.item-content li :hover .item-prise {
+    background-color: #1abc9c;
+}
+
+.item-content li :hover .popup-icons li:not(:last-child) {
+    background-color: #1abc9c;
 }
 
 .popup-icons li:not(:last-child) {
@@ -358,23 +369,16 @@ body {
     padding: 0px;
 }
 
-/* .shopping p {
-     display: inline-block;
-     float: right;  
-}  */
  /*footer  */
 
 .page-footer {
-    font-family: "Open-Sans";
+    font-family: "Open sans";
     font-size: 16px;
     line-height: 28px;
     color: #ffffff;
     width: 1600px;
     height: 90px;
     background-color:rgb(50,50,50);
-}
-
-.page-attachment {
     text-decoration: none;
     text-transform: none;
 }
