@@ -180,7 +180,8 @@ img {
 .collection{
     /* height: 100%;
     width: 1600px;   */
-    background-color: rgb(233,240,253)
+    background-color: rgb(233,240,253);
+    padding-bottom: 102px;
 }
 .collection-title {
     margin:0px auto;
@@ -222,11 +223,12 @@ img {
     width: 255px;
     height: 322px;
     background-color: #ffffff;
+    list-style: none;
 }
 
 .item-content:not(:nth-child(4n)) {
     margin-right: 30px;
-    margin-bottom: 102px;
+    /* margin-bottom: 102px; */
 }
 
 .item {
@@ -247,6 +249,7 @@ img {
     background-color: rgb(50, 50, 50);
     text-align: left;
     text-transform: uppercase;
+    z-index: 2;
 }
 
 .item p {
@@ -264,6 +267,7 @@ img {
     background-color: rgb(140,140,140);
     text-align: center;
     text-transform: uppercase;
+    z-index: 2;
 }
 
 .popup-menu {
@@ -276,6 +280,7 @@ img {
     border-style: solid 1;
     background-color: rgb(0, 0, 0);
     border-color: rgb(255, 255, 255);
+    z-index: 2;
     opacity: 0;
 }
 
@@ -291,21 +296,21 @@ img {
     background-repeat: no-repeat;
 }
 
-.collection-item li:hover .popup-menu {
+.item-content a :hover .popup-menu {
     opacity: 0,6;
 }
 
-.collection-item li:hover .item-title {
+.item-content a :hover .item-title { 
     background-color: #1abc9c;
 }
 
-.collection-item li:hover .item-prise {
+.item-content a :hover .item-prise {
     background-color: #1abc9c;
 }
 
-.collection-item li:hover .popup-icons li:not(:last-child) {
+/* .item-content a :hover .popup-icons li:not(:last-child) {
     background-color: #1abc9c;
-}
+}   */
 
 .popup-icons li:not(:last-child) {
     width:50px;
