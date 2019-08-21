@@ -294,19 +294,19 @@ body {
     background-repeat: no-repeat;
 }
 
-.item-content li :hover .popup-menu {
-    opacity: 0,596;
+.collection-item li:hover .popup-menu {
+    opacity: 0,6;
 }
 
-.item-content li :hover .item-title {
+.collection-item li:hover .item-title {
     background-color: #1abc9c;
 }
 
-.item-content li :hover .item-prise {
+.collection-item li:hover .item-prise {
     background-color: #1abc9c;
 }
 
-.item-content li :hover .popup-icons li:not(:last-child) {
+.collection-item li:hover .popup-icons li:not(:last-child) {
     background-color: #1abc9c;
 }
 
