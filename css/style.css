@@ -109,16 +109,9 @@ body {
     font-weight: 300;
 }
 
-
-/* .slider-priority-active span:hover,
-.slider-priority-active span:focus {
-    color: #1abc9c;
-}  */
-
 .slider-ctrl {
     position: absolute;
     top: 39%;
-    /* transform: translateY(-15%); */
     transform: translate(245px 225px);
     border: none;
     display: inline-block;
@@ -238,7 +231,7 @@ body {
 
 .item h3 {
     position: absolute;
-    bottom:2px;
+    bottom: 0px;
     margin: 0px;
     padding: 5px 14px;
     font-size: 18px;
@@ -254,7 +247,7 @@ body {
 
 .item p {
     position: absolute;
-    bottom:2px;
+    bottom: 0px;
     left:201px;
     margin: 0px;
     padding: 5px;
