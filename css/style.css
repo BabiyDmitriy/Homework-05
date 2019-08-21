@@ -18,16 +18,16 @@ body {
     text-decoration: none;
 }
 
-/* img {
+img {
     display: block;
     width: 100%;
     line-height: auto; 
- } */
+ }
 
-/* .wrapper {
+.wrapper {
     width: 1600px;
     margin: 0px auto;
-} */
+}
 
 .a {
     text-decoration: none;
@@ -118,15 +118,19 @@ body {
     width: 104px;
     height: 104px;
     background-color: #1abc9c;
+    background-repeat: no-repeat;
+    background-position: center;
     z-index: 3;
 }
 
  .slider-ctrl-left {
     left:245px;
+    background-image: url(../img/icons/left-arrow.png);
 } 
 
 .slider-ctrl-right {
     right:245px;
+    background-image: url(../img/icons/right-arrow.png);
 }
 
 .shot {
@@ -174,8 +178,8 @@ body {
 /* section new-collection */
 
 .collection{
-    height: 100%;
-    width: 1600px;  
+    /* height: 100%;
+    width: 1600px;   */
     background-color: rgb(233,240,253)
 }
 .collection-title {
@@ -199,15 +203,15 @@ body {
     content: ""
 }
 
-.collection-item-box {
+/* .collection-item-box {
     margin: 0px;
     padding: 0px 245px;
-}
+} */
 
 .collection-item {
     position: relative;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 245px;
 }
 
 .item-content {
