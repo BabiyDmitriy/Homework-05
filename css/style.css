@@ -305,7 +305,11 @@ img {
     background-color: rgb(127,217,199);
 }
 
-.collection-item li:hover .popup-icons-arrow {
+/* .collection-item li:hover .popup-icons-arrow {
+    background-color: #1abc9c;
+} */
+
+.popup-icons li:hover {
     background-color: #1abc9c;
 }
 
