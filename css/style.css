@@ -16,6 +16,7 @@ body {
     text-transform: uppercase;
     list-style: none;
     text-decoration: none;
+    /* background-color: rgb(233,240,253);  */
 }
 
 img {
@@ -39,6 +40,7 @@ img {
     margin: 0px;
     padding: 0px;
     text-align: center;
+    background-color: #ffffff;
 }
 
 .menu-navigation {
@@ -177,14 +179,19 @@ img {
  
 /* section new-collection */
 
+.collection-box{
+    background-color: rgb(233,240,253);
+    margin: 0px auto;
+    padding: 0px;
+}
+    
+
 .collection{
-    width: 1600px; 
+    width: 1110px; 
     height: 100%; 
-    margin: 0px;
+    margin-left: 245px;
     padding: 0px;
     background-color: rgb(233,240,253);
-    padding-left: 245px;
-    padding-right: 245px;
     padding-bottom: 102px;
 }
 
@@ -391,7 +398,6 @@ img {
     font-size: 16px;
     line-height: 28px;
     color: #ffffff;
-    width: 1600px;
     height: 90px;
     background-color:rgb(50,50,50);
     text-decoration: none;
