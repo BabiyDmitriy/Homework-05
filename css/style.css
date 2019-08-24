@@ -178,11 +178,16 @@ img {
 /* section new-collection */
 
 .collection{
-    /* height: 100%;
-    width: 1600px;   */
+    width: 1600px; 
+    height: 100%; 
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(233,240,253);
+    padding-left: 245px;
+    padding-right: 245px;
     padding-bottom: 102px;
 }
+
 .collection-title {
     margin:0px auto;
     padding: 100px 0px;
@@ -204,15 +209,18 @@ img {
     content: ""
 }
 
-/* .collection-item-box {
+.collection-box {
+    width: 1600px;
+    height: 100%;
     margin: 0px;
-    padding: 0px 245px;
-} */
+    padding: 0px;
+    background-color: rgb(233,240,253);
+} 
 
 .collection-item {
     position: relative;
     margin: 0px;
-    padding: 0px 245px;
+    padding: 0px;
 }
 
 .item-content {
