@@ -184,7 +184,6 @@ img {
     margin: 0px auto;
     padding: 0px;
 }
-    
 
 .collection{
     width: 1110px; 
@@ -243,7 +242,6 @@ img {
 
 .item-content:not(:nth-child(4n)) {
     margin-right: 30px;
-    /* margin-bottom: 102px; */
 }
 
 .item {
